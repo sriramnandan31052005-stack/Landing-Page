@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Ensure these paths match your actual folder structure
   const images = [
-    "images/img1.png",
-    "images/img2.png",
-    "images/img3.png",
-    "images/img4.png"
+    "images/images.png",
+    "images/imgage1.png",
+    "images/imag2.png",
+    // "images/img4.png"
   ];
 
   let index = 0;
@@ -62,10 +62,10 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Auto Slide
-  let autoSlide = setInterval(nextSlide, 5000);
+  let autoSlide = setInterval(nextSlide, 1000);
 
   function resetAutoSlide() {
     clearInterval(autoSlide);
-    autoSlide = setInterval(nextSlide, 5000);
+    autoSlide = setInterval(nextSlide, 1000);
   }
 });
